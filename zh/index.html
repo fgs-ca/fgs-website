@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>首頁 | 多倫多佛光山</title>
+<meta name="description" content="多倫多佛光山 — 以文化弘揚佛法，以教育培養人才，以慈善福利社會，以共修淨化人心。歡迎蒞臨參訪。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Noto+Serif+TC:wght@600;700&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+<!-- PREVIEW ONLY: deep-red header, scoped to this page alone (not in styles.css) -->
+<style>
+  .site-header {
+    background: var(--maroon-dark);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    backdrop-filter: none;
+  }
+  .nav-links a { color: rgba(255,255,255,0.92); }
+  .nav-links a:hover { background: rgba(255,255,255,0.12); color: var(--white); }
+  .nav-links a.active { color: #f0d99a; background: rgba(255,255,255,0.12); }
+  .lang-switch { color: var(--white); border-color: rgba(255,255,255,0.35); }
+  .lang-switch:hover { background: rgba(255,255,255,0.12); }
+  .nav-toggle svg, .nav-dropdown-caret svg { color: var(--white); }
+  /* The dropdown panel keeps its own light background regardless of the
+     header colour above, so its links need to stay dark/readable rather
+     than inheriting the white nav-link colour meant for the dark header. */
+  .nav-dropdown-panel a { color: var(--ink); }
+  .nav-dropdown-panel a:hover { background: var(--cream-deep); color: var(--maroon-dark); }
+  @media (max-width: 900px) {
+    .nav-links { background: var(--maroon-dark); border-bottom: 1px solid rgba(255,255,255,0.12); }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img class="logo-img" src="../assets/logo.png" alt="多倫多佛光山 Fo Guang Shan Temple of Toronto">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">首頁</a>
+      <a href="about.html">關於我們</a>
+      <div class="nav-item-dropdown">
+        <div class="nav-dropdown-head">
+          <a href="service.html">服務</a>
+          <button class="nav-dropdown-caret" type="button" aria-expanded="false" aria-label="展開服務選單">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+        </div>
+        <div class="nav-dropdown-panel">
+          <a href="service.html#cultivation">修持活動</a>
+          <a href="service.html#education">文化教育</a>
+          <a href="service.html#spiritual-care">心靈關懷</a>
+        </div>
+      </div>
+      <a href="events.html">行事曆</a>
+      <a href="news.html">佛光新聞</a>
+      <a href="participate.html">加入佛光</a>
+      <a href="contact.html">聯繫我們</a>
+      <a href="donate.html">捐款</a>
+    </div>
+    <div class="nav-right">
+      <a class="lang-switch" href="../index.html" hreflang="en">EN</a>
+      <div class="nav-cta desktop-only">
+        <a class="btn btn-gold" href="donate.html">捐款</a>
+      </div>
+      <button class="nav-toggle" aria-label="開啟導覽選單" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero hero-photo">
+    <img class="hero-photo-img" src="../assets/2021_FGS_Toronto.avif" alt="" loading="eager">
+    <div class="container">
+      <span class="eyebrow">佛光山 &middot; 安大略省密西沙加</span>
+      <h1>多倫多佛光山歡迎您</h1>
+      <p class="lede">以文化弘揚佛法，以教育培養人才，以慈善福利社會，以共修淨化人心。歡迎每一位對佛法與中華文化有興趣的朋友，一同建設佛光淨土。</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="about.html">了解更多</a>
+        <a class="btn btn-outline-light" href="contact.html">安排參訪</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="quote-block" style="text-align:center; margin:0 auto; max-width:70ch;">
+        「今日現代化的佛教，寺院道場就是學校，就是加油站，就是百貨公司，它淨化我們的心靈，豐富我們的生活，擴大我們的願心，昇華我們的生命。」
+        <div style="margin-top:10px; font-style:normal; font-size:0.9rem; color:var(--muted);">&mdash; 星雲大師</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="event-carousel-wrap">
+    <div class="container">
+      <div class="event-carousel-head">
+        <div class="section-head left">
+          <span class="eyebrow">近期</span>
+          <h2>寺院近期活動</h2>
+        </div>
+        <div class="carousel-arrows">
+          <button class="carousel-arrow" type="button" data-carousel-target="#home-carousel" data-carousel-dir="prev" aria-label="上一則活動">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <button class="carousel-arrow" type="button" data-carousel-target="#home-carousel" data-carousel-dir="next" aria-label="下一則活動">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="event-carousel" id="home-carousel">
+        <a class="event-slide" href="events/sunday-service-light-offering.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/667ed6719841e925d568787b_Light%20Offering.avif" alt="光明燈消災法會" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">2026年9月6日</span>
+            <h4>光明燈消災法會</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/food-offering-service-1st-day.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/66a274331f4c2708e25f4956_Food%20Offering%20DS%201st%20and%2015th%20day.jpeg" alt="佛供（農曆八月初一）" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">2026年9月11日</span>
+            <h4>佛供（初一）</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/ksitigarbha-dharma-service.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/6a907fae9bcf5081daa3f95c_2026%E5%9C%B0%E8%97%8F%E6%B3%95%E6%9C%83_IG.avif" alt="地藏法會" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">2026年9月13日</span>
+            <h4>地藏法會</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/vegrun.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/6a907a556c085d4efc6a00b9_VenRun2026_600x485px.avif" alt="2026 全球復蔬" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">2026年9月19日</span>
+            <h4>2026 全球復蔬</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/sunday-service-amitabha-sutra.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/667ed6b81b82ed34b4a3da42_Amitabha%20Sutra.png" alt="念佛共修法會" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">2026年9月20日</span>
+            <h4>念佛共修法會</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="section-head left">
+        <span class="eyebrow">探索</span>
+        <h2>由此探索</h2>
+      </div>
+    </div>
+    <div class="photo-tile-grid">
+      <a class="photo-tile" href="service.html">
+        <img src="../assets/mainshrine-2.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">心靈</span>
+          <h3>服務</h3>
+        </div>
+      </a>
+      <a class="photo-tile" href="events.html">
+        <img src="../assets/20260516_exhibition%20banner.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">加入我們</span>
+          <h3>行事曆</h3>
+        </div>
+      </a>
+      <a class="photo-tile" href="news.html">
+        <img src="../assets/fgstoronto-groupphoto.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">掌握消息</span>
+          <h3>佛光新聞</h3>
+        </div>
+      </a>
+      <a class="photo-tile" href="participate.html">
+        <img src="../assets/2023_1015_Toronto_YAD_Welcome%20Gathering_f.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">參與其中</span>
+          <h3>加入佛光</h3>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="section-maroon">
+    <div class="container">
+      <div class="two-col" style="align-items:center;">
+        <div>
+          <span class="eyebrow">為何布施供養？</span>
+          <h2>布施是一種修行</h2>
+          <p>佛教講究喜捨，更提倡小小布施。布施不只是表面上物質的給予，給人信心、歡喜、希望、方便都是廣義的布施。</p>
+          <a class="btn btn-gold" href="donate.html">支持我們</a>
+        </div>
+        <div class="quote-block" style="color:#f0d99a; border-color: var(--gold);">
+          「歡迎加入國際佛光會，成為全球最大佛教社團的一員。」
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">全球道場</span>
+        <h2>共屬佛光大家庭</h2>
+        <p class="lede" style="margin:0 auto;">佛光山由星雲大師於1967年在台灣高雄創建，如今在全球五大洲設有近300間道場。</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="stat"><div class="num">300+</div><div class="label">全球道場</div></div>
+        <div class="stat"><div class="num">1967</div><div class="label">創立於台灣</div></div>
+        <div class="stat"><div class="num">1991</div><div class="label">多倫多建寺</div></div>
+        <div class="stat"><div class="num">3</div><div class="label">大多倫多地區據點</div></div>
+      </div>
+      <div style="text-align:center; margin-top:36px;">
+        <a class="btn btn-outline" href="global.html">深入了解</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img class="logo-img footer-logo" src="../assets/logo.png" alt="多倫多佛光山 Fo Guang Shan Temple of Toronto">
+        </div>
+        <p style="color:#a89d8d; font-size:0.9rem; max-width:32ch;">以文化弘揚佛法，以教育培養人才，以慈善福利社會，以共修淨化人心。</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/fgstoronto" aria-label="Facebook" target="_blank" rel="noopener"><span style="color:#fff;font-weight:700;font-size:0.75rem;">FB</span></a>
+          <a href="https://youtube.com/FGSToronto" aria-label="YouTube" target="_blank" rel="noopener"><span style="color:#fff;font-weight:700;font-size:0.75rem;">YT</span></a>
+          <a href="https://instagram.com/fgstoronto" aria-label="Instagram" target="_blank" rel="noopener"><span style="color:#fff;font-weight:700;font-size:0.75rem;">IG</span></a>
+        </div>
+      </div>
+      <div>
+        <h4>探索</h4>
+        <a href="about.html">關於我們</a>
+        <a href="service.html#cultivation">修持活動</a>
+        <a href="service.html#education">文化教育</a>
+        <a href="service.html#spiritual-care">心靈關懷</a>
+        <a href="participate.html">加入佛光</a>
+      </div>
+      <div>
+        <h4>聯繫</h4>
+        <a href="events.html">行事曆</a>
+        <a href="news.html">佛光新聞</a>
+        <a href="global.html">全球道場</a>
+        <a href="contact.html">聯繫我們</a>
+      </div>
+      <div>
+        <h4>參訪</h4>
+        <a href="contact.html">6525 Millcreek Drive<br>Mississauga, ON L5N 7K6</a>
+        <a href="tel:+19058140465">(905) 814-0465</a>
+        <a href="mailto:info@fgs.ca">info@fgs.ca</a>
+        <a href="donate.html">立即捐款</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 多倫多佛光山（I.B.P.S. of Toronto）版權所有。</span>
+      <span><a href="#">隱私權政策</a> &middot; <a href="#">無障礙聲明</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

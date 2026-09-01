@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Fo Guang Shan Temple of Toronto</title>
+<meta name="description" content="Fo Guang Shan Temple of Toronto — connecting people with Humanistic Buddhism. A spiritual and cultural home in Mississauga, with centers across the Greater Toronto Area.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<!-- PREVIEW ONLY: deep-red header, scoped to this page alone (not in styles.css) -->
+<style>
+  .site-header {
+    background: var(--maroon-dark);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    backdrop-filter: none;
+  }
+  .nav-links a { color: rgba(255,255,255,0.92); }
+  .nav-links a:hover { background: rgba(255,255,255,0.12); color: var(--white); }
+  .nav-links a.active { color: #f0d99a; background: rgba(255,255,255,0.12); }
+  .lang-switch { color: var(--white); border-color: rgba(255,255,255,0.35); }
+  .lang-switch:hover { background: rgba(255,255,255,0.12); }
+  .nav-toggle svg, .nav-dropdown-caret svg { color: var(--white); }
+  /* The dropdown panel keeps its own light background regardless of the
+     header colour above, so its links need to stay dark/readable rather
+     than inheriting the white nav-link colour meant for the dark header. */
+  .nav-dropdown-panel a { color: var(--ink); }
+  .nav-dropdown-panel a:hover { background: var(--cream-deep); color: var(--maroon-dark); }
+  @media (max-width: 900px) {
+    .nav-links { background: var(--maroon-dark); border-bottom: 1px solid rgba(255,255,255,0.12); }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img class="logo-img" src="assets/logo.png" alt="Fo Guang Shan Temple of Toronto 多倫多佛光山">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <div class="nav-dropdown-head">
+          <a href="service.html">Service</a>
+          <button class="nav-dropdown-caret" type="button" aria-expanded="false" aria-label="Toggle Service menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+        </div>
+        <div class="nav-dropdown-panel">
+          <a href="service.html#cultivation">Cultivation</a>
+          <a href="service.html#education">Education</a>
+          <a href="service.html#spiritual-care">Spiritual Care</a>
+        </div>
+      </div>
+      <a href="events.html">Calendar</a>
+      <a href="news.html">News</a>
+      <a href="participate.html">Participate</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html">Donate</a>
+    </div>
+    <div class="nav-right">
+      <a class="lang-switch" href="zh/index.html" hreflang="zh">中文</a>
+      <div class="nav-cta desktop-only">
+        <a class="btn btn-gold" href="donate.html">Donate</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero hero-photo">
+    <img class="hero-photo-img" src="assets/2021_FGS_Toronto.avif" alt="" loading="eager">
+    <div class="container">
+      <span class="eyebrow">Fo Guang Shan &middot; Mississauga, Ontario</span>
+      <h1>Connecting People with Humanistic Buddhism</h1>
+      <p class="lede">A spiritual and cultural hub for those interested in learning more about Buddhism and Chinese culture, with members across the Greater Toronto Area.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="about.html">Learn More</a>
+        <a class="btn btn-outline-light" href="contact.html">Plan a Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="event-carousel-wrap">
+    <div class="container">
+      <div class="event-carousel-head">
+        <div class="section-head left">
+          <span class="eyebrow">Upcoming</span>
+          <h2>What&rsquo;s Happening at the Temple</h2>
+        </div>
+        <div class="carousel-arrows">
+          <button class="carousel-arrow" type="button" data-carousel-target="#home-carousel" data-carousel-dir="prev" aria-label="Scroll to previous event">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <button class="carousel-arrow" type="button" data-carousel-target="#home-carousel" data-carousel-dir="next" aria-label="Scroll to next event">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="event-carousel" id="home-carousel">
+        <a class="event-slide" href="events/sunday-service-light-offering.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/667ed6719841e925d568787b_Light%20Offering.avif" alt="Sunday Service &mdash; Light Offering" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">Sep 6, 2026</span>
+            <h4>Sunday Service &mdash; Light Offering</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/food-offering-service-1st-day.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/66a274331f4c2708e25f4956_Food%20Offering%20DS%201st%20and%2015th%20day.jpeg" alt="Food Offering Service (Lunar Month, 1st Day)" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">Sep 11, 2026</span>
+            <h4>Food Offering Service</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/ksitigarbha-dharma-service.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/6a907fae9bcf5081daa3f95c_2026%E5%9C%B0%E8%97%8F%E6%B3%95%E6%9C%83_IG.avif" alt="Ksitigarbha Dharma Service" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">Sep 13, 2026</span>
+            <h4>Ksitigarbha Dharma Service</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/vegrun.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/6a907a556c085d4efc6a00b9_VenRun2026_600x485px.avif" alt="VEGRUN 2026" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">Sep 19, 2026</span>
+            <h4>VEGRUN 2026</h4>
+          </div>
+        </a>
+        <a class="event-slide" href="events/sunday-service-amitabha-sutra.html">
+          <img src="https://cdn.prod.website-files.com/60b83339909ad0296005459b/667ed6b81b82ed34b4a3da42_Amitabha%20Sutra.png" alt="Sunday Service &mdash; Amitabha Sutra" loading="lazy">
+          <div class="event-slide-body">
+            <span class="pill">Sep 20, 2026</span>
+            <h4>Sunday Service &mdash; Amitabha Sutra</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="section-head left">
+        <span class="eyebrow">Explore</span>
+        <h2>Find Your Way In</h2>
+      </div>
+    </div>
+    <div class="photo-tile-grid">
+      <a class="photo-tile" href="service.html">
+        <img src="assets/mainshrine-2.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">Spiritual</span>
+          <h3>Service</h3>
+        </div>
+      </a>
+      <a class="photo-tile" href="events.html">
+        <img src="assets/20260516_exhibition%20banner.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">Join Us</span>
+          <h3>Calendar</h3>
+        </div>
+      </a>
+      <a class="photo-tile" href="news.html">
+        <img src="assets/fgstoronto-groupphoto.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">Stay Informed</span>
+          <h3>News</h3>
+        </div>
+      </a>
+      <a class="photo-tile" href="participate.html">
+        <img src="assets/2023_1015_Toronto_YAD_Welcome%20Gathering_f.avif" alt="" loading="lazy">
+        <div class="photo-tile-label">
+          <span class="eyebrow">Get Involved</span>
+          <h3>Participate</h3>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="section-maroon">
+    <div class="container">
+      <div class="two-col" style="align-items:center;">
+        <div>
+          <span class="eyebrow">Why Do We Make Offerings?</span>
+          <h2>Giving as Practice</h2>
+          <p>In the Buddhist tradition, the making of an offering allows one to practice giving, to express gratitude and respect, and to reflect upon the life-sustaining law of interdependence.</p>
+          <a class="btn btn-gold" href="donate.html">Support Us</a>
+        </div>
+        <div class="quote-block" style="color:#f0d99a; border-color: var(--gold);">
+          &ldquo;Looking for community? You can be part of one of the largest Buddhist communities &mdash; the Buddha&rsquo;s Light International Association.&rdquo;
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Worldwide Outreach</span>
+        <h2>Part of a Global Family</h2>
+        <p class="lede" style="margin:0 auto;">Founded in Taiwan in 1967 by Venerable Master Hsing Yun, Fo Guang Shan now connects devotees across five continents.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="stat"><div class="num">300+</div><div class="label">Temples Worldwide</div></div>
+        <div class="stat"><div class="num">1967</div><div class="label">Founded in Taiwan</div></div>
+        <div class="stat"><div class="num">1991</div><div class="label">Toronto Temple Founded</div></div>
+        <div class="stat"><div class="num">3</div><div class="label">GTA Locations</div></div>
+      </div>
+      <div style="text-align:center; margin-top:36px;">
+        <a class="btn btn-outline" href="global.html">Find Out More</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img class="logo-img footer-logo" src="assets/logo.png" alt="Fo Guang Shan Temple of Toronto 多倫多佛光山">
+        </div>
+        <p style="color:#a89d8d; font-size:0.9rem; max-width:32ch;">Connecting people with Humanistic Buddhism &mdash; a spiritual and cultural home for the Greater Toronto Area.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/fgstoronto" aria-label="Facebook" target="_blank" rel="noopener"><span style="color:#fff;font-weight:700;font-size:0.75rem;">FB</span></a>
+          <a href="https://youtube.com/FGSToronto" aria-label="YouTube" target="_blank" rel="noopener"><span style="color:#fff;font-weight:700;font-size:0.75rem;">YT</span></a>
+          <a href="https://instagram.com/fgstoronto" aria-label="Instagram" target="_blank" rel="noopener"><span style="color:#fff;font-weight:700;font-size:0.75rem;">IG</span></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About</a>
+        <a href="service.html#cultivation">Cultivation</a>
+        <a href="service.html#education">Education</a>
+        <a href="service.html#spiritual-care">Spiritual Care</a>
+        <a href="participate.html">Participate</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="events.html">Calendar</a>
+        <a href="news.html">News &amp; Newsletter</a>
+        <a href="global.html">Global Affiliations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <a href="contact.html">6525 Millcreek Drive<br>Mississauga, ON L5N 7K6</a>
+        <a href="tel:+19058140465">(905) 814-0465</a>
+        <a href="mailto:info@fgs.ca">info@fgs.ca</a>
+        <a href="donate.html">Make a Donation</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Fo Guang Shan Temple of Toronto (I.B.P.S. of Toronto). All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &middot; <a href="#">Accessibility Statement</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
